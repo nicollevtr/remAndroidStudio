@@ -9,19 +9,19 @@
         android:id="@+id/nav_home"
         android:name="com.example.myapplication.ui.home.HomeFragment"
         android:label="Remédios"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_rem" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.myapplication.ui.gallery.GalleryFragment"
         android:label="Contato"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_contact" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
         android:label="Pesquisa"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_search" />
 
     <fragment android:id="@+id/Perfil"
         android:name="com.example.myapplication.ui.perfil.PerfilFragment"
